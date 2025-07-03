@@ -1,4 +1,5 @@
 # Вакансия разработчик (фронтенд)
+
 ТЕСТОВОЕ ЗАДАНИЕ
 
 Есть апи, возвращающее json с данными.
@@ -27,6 +28,7 @@ https://www.postman.com/cy322666/workspace/app-api-test/overview
 ---
 
 ### Продажи
+
 Параметры:
 
 dateFrom
@@ -73,7 +75,7 @@ Incomes:
 http://109.73.206.144:6969/api/incomes?dateFrom=2025-05-01&dateTo=2025-06-01&page=1&key=E6kUTYrYwZq2tN4QEtyzsbEBk3ie&limit=100
 
 Orders:
-http://109.73.206.144:6969/api/orders?dateTo=2025-06-01&page=1&key=E6kUTYrYwZq2tN4QEtyzsbEBk3ie&limit=100
+http://109.73.206.144:6969/api/orders?dateFrom=2025-05-01&dateTo=2025-06-01&page=1&key=E6kUTYrYwZq2tN4QEtyzsbEBk3ie&limit=100
 
 Sales:
 http://109.73.206.144:6969/api/sales?dateFrom=2025-05-01&dateTo=2025-06-01&page=1&key=E6kUTYrYwZq2tN4QEtyzsbEBk3ie&limit=100
