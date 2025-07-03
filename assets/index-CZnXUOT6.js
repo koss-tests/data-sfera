@@ -1,4 +1,4 @@
-import{d as hi,a as Un,q as Di,o as Xn,j as Kn,aC as Xs,aD as ti,aE as qn,r as Gn,g as Jn,aF as Zn,aG as Qn,aH as ei,aI as Ks,aJ as to}from"./index-CQf70_45.js";const jc=hi({__name:"Loader",props:{isLoading:{type:Boolean}},setup(i){return(t,e)=>(Xn(),Un("div",null,[t.isLoading?Di(t.$slots,"loading",{key:0},()=>[e[0]||(e[0]=Kn("Загрузка..."))]):Di(t.$slots,"default",{key:1})]))}});/*!
+import{d as hi,a as Un,q as Di,o as Xn,j as Kn,aC as Xs,aD as ti,aE as qn,r as Gn,g as Jn,aF as Zn,aG as Qn,aH as ei,aI as Ks,aJ as to}from"./index-BeeYoGrA.js";const jc=hi({__name:"Loader",props:{isLoading:{type:Boolean}},setup(i){return(t,e)=>(Xn(),Un("div",null,[t.isLoading?Di(t.$slots,"loading",{key:0},()=>[e[0]||(e[0]=Kn("Загрузка..."))]):Di(t.$slots,"default",{key:1})]))}});/*!
  * @kurkle/color v0.3.4
  * https://github.com/kurkle/color#readme
  * (c) 2024 Jukka Kurkela
