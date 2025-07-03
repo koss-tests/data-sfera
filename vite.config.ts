@@ -9,14 +9,15 @@ export default defineConfig({
   plugins: [
     vue(),
     Components({
-      resolvers: [PrimeVueResolver()],
-    }),
+      resolvers: [PrimeVueResolver()]
+    })
   ],
+  base: '/data-sfera/',
   server: {
-    port: 3000,
+    port: 3000
   },
   preview: {
-    port: 3000,
+    port: 3000
   },
   resolve: {
     alias: {
@@ -26,7 +27,7 @@ export default defineConfig({
       '@components': path.resolve(__dirname, './src/components'),
       '@store': path.resolve(__dirname, './src/store'),
       '@shared': path.resolve(__dirname, './src/shared'),
-      '@types': path.resolve(__dirname, './src/shared/types'),
-    },
-  },
+      '@types': path.resolve(__dirname, './src/shared/types')
+    }
+  }
 })
