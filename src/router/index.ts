@@ -6,24 +6,24 @@ const router = createRouter({
     {
       path: '/',
       name: 'incomes',
-      component: () => import('@pages/IncomesPage.vue'),
+      component: () => import('@pages/IncomesPage.vue')
     },
     {
-      path: '/',
+      path: '/orders',
       name: 'orders',
-      component: () => import('@pages/OrdersPage.vue'),
+      component: () => import('@pages/OrdersPage.vue')
     },
     {
-      path: '/',
+      path: '/sales',
       name: 'sales',
-      component: () => import('@pages/SalesPage.vue'),
+      component: () => import('@pages/SalesPage.vue')
     },
     {
-      path: '/',
+      path: '/stocks',
       name: 'stocks',
-      component: () => import('@pages/StocksPage.vue'),
-    },
-  ],
+      component: () => import('@pages/StocksPage.vue')
+    }
+  ]
 })
 
 export default router
