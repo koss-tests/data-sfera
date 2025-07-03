@@ -12,6 +12,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
 }
 
 #app {
@@ -19,6 +21,18 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+
+.pie-chart-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 @media (prefers-color-scheme: light) {
